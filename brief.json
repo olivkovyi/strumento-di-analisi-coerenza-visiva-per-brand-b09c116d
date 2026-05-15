@@ -1,0 +1,313 @@
+{
+  "run_id": "run-1778805800831",
+  "job_index": 3,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 3,
+    "archetype": "tool",
+    "market": "France",
+    "language": "it",
+    "country": "IT",
+    "brief": "Assicura che la tua immagine digitale sia uniforme e professionale ovunque ti presenti.",
+    "notes": "Verifica la coerenza del tuo brand personale su diverse piattaforme online (sito web, social media, portfolio), fornendo un punteggio e suggerimenti di miglioramento.\nAnalizza colori, font, stile delle immagini e tono di voce per garantire coerenza.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "forum-de-jeu.shop",
+    "network_hosting_pool": "4vps:netoper | server_id=447345 | ip=5.253.59.18 | ssh_user=root | ssh_port=22",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "mixed batch",
+    "archetype_mix": [
+      "generator",
+      "calculator",
+      "tool"
+    ],
+    "forced_design_theme": "refined-grit",
+    "forced_structure_preset": "precision-bento",
+    "site_idea_title": "Strumento di Analisi di Coerenza Visiva per Brand Personali",
+    "site_idea_summary": "Verifica la coerenza del tuo brand personale su diverse piattaforme online (sito web, social media, portfolio), fornendo un punteggio e suggerimenti di miglioramento."
+  },
+  "site_spec": {
+    "slug": "strumento-di-analisi-coerenza-visiva-per-brand-b09c116d",
+    "theme": {
+      "name": "Refined Grit",
+      "slug": "refined-grit",
+      "eyebrow": "Polished Edge",
+      "family": "refined-grit",
+      "moods": [
+        "edgy",
+        "polished",
+        "textured",
+        "bold"
+      ],
+      "archetypes": [
+        "tool",
+        "generator",
+        "calculator"
+      ],
+      "niches": [
+        "brand tools",
+        "creator tools",
+        "portfolio utility",
+        "campaign tools",
+        "research"
+      ],
+      "keywords": [
+        "grit",
+        "texture",
+        "edge",
+        "bold",
+        "statement"
+      ],
+      "token_index": [
+        "bold",
+        "brand",
+        "calculator",
+        "campaign",
+        "creator",
+        "edge",
+        "edgy",
+        "generator",
+        "grit",
+        "polished",
+        "portfolio",
+        "refined",
+        "research",
+        "statement",
+        "texture",
+        "textured",
+        "tool",
+        "tools",
+        "utility"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&display=swap",
+      "display_font": "\"DM Serif Display\", serif",
+      "body_font": "\"Inter\", sans-serif",
+      "layout": "editorial",
+      "card_style": "paper",
+      "button_style": "slab",
+      "decor_style": "paper",
+      "hero_template": "1fr",
+      "seo_template": "1fr",
+      "feature_columns": 2,
+      "faq_columns": 2,
+      "hero_min_height": "70vh",
+      "panel_radius": "28px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "16px",
+      "palette": {
+        "bg": "linear-gradient(160deg, #f7f3ee 0%, #d6d3d1 48%, #111827 100%)",
+        "surface": "rgba(17,24,39,0.8)",
+        "surface_border": "rgba(249,115,22,0.14)",
+        "text": "#faf5ef",
+        "muted": "#d6c6b9",
+        "accent": "#f97316",
+        "accent_alt": "#eab308",
+        "hero_glow": "rgba(249, 115, 22, 0.16)",
+        "button_text": "#1c1008",
+        "panel_alt": "rgba(255,255,255,0.04)",
+        "shadow": "0 28px 84px rgba(15, 23, 42, 0.3)",
+        "input_fill": "rgba(255,255,255,0.05)"
+      }
+    },
+    "structure": {
+      "name": "Precision Bento",
+      "slug": "precision-bento",
+      "hero_variant": "split",
+      "proof_variant": "metrics",
+      "section_order": [
+        "features",
+        "proof",
+        "seo",
+        "faq"
+      ],
+      "feature_columns": 4,
+      "faq_columns": 3,
+      "family": "precision-bento",
+      "moods": [
+        "clean",
+        "modular",
+        "premium"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator",
+        "generator"
+      ],
+      "niches": [
+        "saas",
+        "admin",
+        "compliance",
+        "analysis"
+      ],
+      "keywords": [
+        "bento",
+        "precision",
+        "cards",
+        "operator"
+      ],
+      "token_index": [
+        "admin",
+        "analysis",
+        "bento",
+        "calculator",
+        "cards",
+        "clean",
+        "compliance",
+        "faq",
+        "features",
+        "generator",
+        "metrics",
+        "modular",
+        "operator",
+        "precision",
+        "premium",
+        "proof",
+        "saas",
+        "seo",
+        "split",
+        "tool"
+      ]
+    },
+    "render_direction": "studio-split",
+    "render_direction_name": "Studio Split",
+    "page_blueprint": "briefing-board",
+    "page_blueprint_name": "Briefing Board",
+    "title": "Strumento di Analisi Coerenza Visiva per Brand Personali",
+    "tagline": "Perché è Cruciale la Coerenza?",
+    "description": "Verifica la coerenza del tuo brand personale su diverse piattaforme online (sito web, social media, portfolio), fornendo un punteggio e suggerimenti di miglioramento.",
+    "feature_prefix": "Modulo",
+    "action": "Generate palette",
+    "cta_primary": "Esegui l'Analisi",
+    "cta_secondary": "Leggi le FAQ",
+    "inputs": [
+      {
+        "id": "base_color",
+        "label": "Base color",
+        "type": "text",
+        "placeholder": "#ff5db1",
+        "weight": 1.0
+      },
+      {
+        "id": "palette_style",
+        "label": "Palette direction",
+        "type": "select",
+        "options": [
+          {
+            "id": "chrome-pop",
+            "label": "Chrome Pop",
+            "multiplier": 1
+          },
+          {
+            "id": "digital-candy",
+            "label": "Digital Candy",
+            "multiplier": 1
+          },
+          {
+            "id": "acid-pastel",
+            "label": "Acid Pastel",
+            "multiplier": 1
+          },
+          {
+            "id": "night-neon",
+            "label": "Night Neon",
+            "multiplier": 1
+          }
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "vibrancy",
+        "label": "Visual intensity",
+        "type": "number",
+        "placeholder": "8",
+        "weight": 0.5
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Studio Split",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Inputs"
+      },
+      {
+        "value": "Generated palette",
+        "label": "Output"
+      }
+    ],
+    "trust_labels": [
+      "Studio Split",
+      "Esegui l'Analisi",
+      "Generated palette",
+      "Utilità immediata",
+      "Struttura SEO chiara"
+    ],
+    "result_label": "Generated palette",
+    "result_unit": "",
+    "runtime_mode": "palette_generator",
+    "page_variant": "classic",
+    "faq_topic": "Strumento di Analisi di Coerenza Visiva per Brand Personali",
+    "faq_entries": [
+      {
+        "question": "Perché usare questo strumento per Strumento di Analisi di Coerenza Visiva per Brand Personali?",
+        "answer": "Aiuta a inquadrare rapidamente il bisogno e guida verso una prossima azione chiara nel mercato France."
+      },
+      {
+        "question": "Il risultato è immediato?",
+        "answer": "Sì. L'interfaccia è pensata per restituire una risposta rapida, leggibile e utile dalla prima interazione."
+      },
+      {
+        "question": "La pagina è adatta alla SEO?",
+        "answer": "Sì. La struttura combina utilità, chiarezza editoriale e segnali di fiducia senza sovraccaricare l'esperienza."
+      }
+    ],
+    "seo_paragraphs": [
+      "Questa pagina intercetta un'intenzione forte intorno a Strumento di Analisi di Coerenza Visiva per Brand Personali e la trasforma in un'azione misurabile per France.",
+      "La struttura hero-first migliora la chiarezza, riduce la frizione e funziona bene sia su mobile sia su desktop.",
+      "La base resta volutamente leggera per facilitare test, QA continua e varianti SEO ripetibili."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"it\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Strumento di Analisi Coerenza Visiva per Brand Personali | Perché è Cruciale la Coerenza?</title>\n    <meta name=\"description\" content=\"Verifica la coerenza del tuo brand personale su diverse piattaforme online (sito web, social media, portfolio), fornendo un punteggio e suggerimenti di miglioramento.\">\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap');\n\n        :root {\n            --color-dark: #1a1a1a;\n            --color-light: #f0f0f0;\n            --color-accent: #e63946;\n            --color-text: #333;\n            --color-background: #ffffff;\n            --color-border: #ddd;\n        }\n\n        body {\n            font-family: 'Open Sans', sans-serif;\n            color: var(--color-text);\n            line-height: 1.6;\n            margin: 0;\n            padding: 0;\n            background-color: var(--color-background);\n            display: flex;\n            flex-direction: column;\n            min-height: 100vh;\n        }\n\n        h1, h2, h3 {\n            font-family: 'Montserrat', sans-serif;\n            color: var(--color-dark);\n            letter-spacing: -0.03em;\n        }\n\n        h1 {\n            font-size: 3.5em;\n            text-align: center;\n            margin-bottom: 0.5em;\n            line-height: 1.1;\n        }\n\n        h2 {\n            font-size: 2.2em;\n            margin-top: 2em;\n            margin-bottom: 0.8em;\n            border-bottom: 3px solid var(--color-accent);\n            padding-bottom: 0.2em;\n            display: inline-block;\n        }\n\n        .container {\n            max-width: 1000px;\n            margin: 0 auto;\n            padding: 20px;\n        }\n\n        .header {\n            background-color: var(--color-dark);\n            color: var(--color-light);\n            padding: 40px 20px;\n            text-align: center;\n        }\n\n        .header p {\n            font-size: 1.2em;\n            max-width: 700px;\n            margin: 1em auto 0;\n            color: var(--color-light);\n        }\n\n        .section {\n            padding: 40px 20px;\n            margin-bottom: 20px;\n            background-color: var(--color-light);\n            border-radius: 8px;\n            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);\n        }\n\n        .section.dark {\n            background-color: var(--color-dark);\n            color: var(--color-light);\n        }\n\n        .section.dark h2 {\n            color: var(--color-light);\n            border-color: var(--color-light);\n        }\n\n        .form-group {\n            margin-bottom: 20px;\n        }\n\n        label {\n            display: block;\n            margin-bottom: 8px;\n            font-weight: 600;\n        }\n\n        input[type=\"url\"],\n        textarea {\n            width: calc(100% - 22px);\n            padding: 10px;\n            border: 1px solid var(--color-border);\n            border-radius: 4px;\n            font-size: 1em;\n            box-sizing: border-box;\n        }\n\n        textarea {\n            min-height: 100px;\n            resize: vertical;\n        }\n\n        button {\n            background-color: var(--color-accent);\n            color: var(--color-light);\n            padding: 12px 25px;\n            border: none;\n            border-radius: 5px;\n            font-size: 1.1em;\n            cursor: pointer;\n            transition: background-color 0.3s ease;\n        }\n\n        button:hover {\n            background-color: #d62d3a;\n        }\n\n        .result-area {\n            background-color: var(--color-background);\n            padding: 30px;\n            border-radius: 8px;\n            margin-top: 30px;\n            border: 1px dashed var(--color-border);\n        }\n\n        .result-area h3 {\n            color: var(--color-accent);\n            margin-top: 0;\n            font-size: 1.8em;\n        }\n\n        .score {\n            font-size: 2.5em;\n            font-weight: 700;\n            color: var(--color-accent);\n            margin-top: 15px;\n            margin-bottom: 20px;\n        }\n\n        .suggestions ul {\n            list-style: none;\n            padding: 0;\n        }\n\n        .suggestions li {\n            background-color: #f9f9f9;\n            margin-bottom: 10px;\n            padding: 15px;\n            border-left: 5px solid var(--color-accent);\n            border-radius: 4px;\n        }\n\n        .grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n            gap: 20px;\n            margin-top: 30px;\n        }\n\n        .grid-item {\n            background-color: var(--color-background);\n            padding: 25px;\n            border-radius: 8px;\n            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);\n            border-top: 5px solid var(--color-accent);\n        }\n\n        .grid-item h3 {\n            font-size: 1.5em;\n            margin-top: 0;\n            color: var(--color-dark);\n        }\n\n        .grid-item p {\n            font-size: 0.95em;\n            color: #555;\n        }\n\n        .seo-footer {\n            background-color: var(--color-dark);\n            color: var(--color-light);\n            padding: 40px 20px;\n            text-align: center;\n            font-size: 0.9em;\n            margin-top: auto;\n        }\n\n        .seo-footer h3 {\n            color: var(--color-light);\n            margin-bottom: 20px;\n        }\n\n        .seo-footer p {\n            max-width: 800px;\n            margin: 0 auto 15px auto;\n        }\n\n        .seo-footer a {\n            color: var(--color-accent);\n            text-decoration: none;\n        }\n\n        .seo-footer a:hover {\n            text-decoration: underline;\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://strumento-di-analisi-coerenza-visiva-per-brand-b09c116d.onrender.com\">\n    <meta property=\"og:title\" content=\"Strumento di Analisi Coerenza Visiva per Brand Personali\">\n    <meta property=\"og:description\" content=\"Verifica la coerenza del tuo brand personale su diverse piattaforme online (sito web, social media, portfolio), fornendo un punteggio e suggerimenti di miglioramento.\">\n    <meta property=\"og:url\" content=\"https://strumento-di-analisi-coerenza-visiva-per-brand-b09c116d.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Strumento di Analisi Coerenza Visiva per Brand Personali\", \"description\": \"Verifica la coerenza del tuo brand personale su diverse piattaforme online (sito web, social media, portfolio), fornendo un punteggio e suggerimenti di miglioramento.\", \"url\": \"https://strumento-di-analisi-coerenza-visiva-per-brand-b09c116d.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"strumento-di-analisi-coerenza-visiva-per-brand-b09c116d\" data-runtime-mode=\"palette_generator\">\n    <header class=\"header\">\n        <div class=\"container\">\n            <h1>Verifica Coerenza Visiva per il Tuo Brand Personale</h1>\n            <p>Assicura che la tua immagine digitale sia uniforme e professionale ovunque ti presenti. Il nostro strumento analizza il tuo brand su diverse piattaforme e ti offre un punteggio e suggerimenti pratici.</p>\n        </div>\n    </header>\n\n    <main class=\"container\">\n        <section class=\"section\">\n            <h2>Perché è Cruciale la Coerenza?</h2>\n            <div class=\"grid\">\n                <div class=\"grid-item\">\n                    <h3>Affidabilità</h3>\n                    <p>Un brand coerente trasmette professionalità e credibilità. I tuoi potenziali clienti o datori di lavoro si fidano di ciò che vedono.</p>\n                </div>\n                <div class=\"grid-item\">\n                    <h3>Riconoscibilità</h3>\n                    <p>Colori, font e immagini uniformi rendono il tuo brand immediatamente riconoscibile, rafforzando la tua presenza mentale nel tuo pubblico.</p>\n                </div>\n                <div class=\"grid-item\">\n                    <h3>Impatto</h3>\n                    <p>Una narrazione visiva coesa crea un impatto maggiore e duraturo, distinguendoti in un mercato affollato.</p>\n                </div>\n            </div>\n        </section>\n\n        <section class=\"section dark\">\n            <h2 style=\"text-align:center;\">Analizza il Tuo Brand Ora</h2>\n            <form id=\"tool-form\">\n                <div class=\"form-group\">\n                    <label for=\"website-url\">URL del tuo sito web principale (es. portfolio, blog):</label>\n                    <input type=\"url\" id=\"website-url\" placeholder=\"https://tuosito.it\" required>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"social-media-urls\">URL dei tuoi profili social (LinkedIn, Instagram, Facebook, ecc. - uno per riga):</label>\n                    <textarea id=\"social-media-urls\" placeholder=\"https://linkedin.com/in/tuonome&#10;https://instagram.com/tuoprofilo\"></textarea>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"brand-description\">Descrivi il tuo brand personale (parole chiave, valori, target di riferimento):</label>\n                    <textarea id=\"brand-description\" placeholder=\"Es. Innovazione, design minimalista, professionista del marketing, target startup.\"></textarea>\n                </div>\n                <button type=\"submit\" id=\"tool-submit\">Esegui l'Analisi</button>\n            </form>\n\n            <div id=\"tool-result\" class=\"result-area\" style=\"display:none;\">\n                <h3 id=\"result-headline\">Risultato della Tua Analisi di Coerenza</h3>\n                <p>Punteggio di Coerenza Attuale:</p>\n                <div class=\"score\" id=\"coherence-score\"></div>\n                <div class=\"suggestions\">\n                    <h4>Suggerimenti per il Miglioramento:</h4>\n                    <ul id=\"coherence-suggestions\">\n                        <!-- Suggestions will be inserted here by JavaScript -->\n                    </ul>\n                </div>\n            </div>\n        </section>\n    </main>\n\n    <footer class=\"seo-footer\">\n        <div class=\"container\">\n            <h3>Trova la Perfetta Armonia del Tuo Brand Online</h3>\n            <p>Sei alla ricerca di uno <a href=\"#\" data-affiliate-slot=\"seo-tool-1\">strumento per la coerenza del brand personale</a>? Vuoi migliorare la tua <a href=\"#\" data-affiliate-slot=\"seo-tool-2\">immagine professionale online</a>? Il nostro analizzatore ti aiuta a identificare discrepanze tra il tuo <a href=\"#\" data-affiliate-slot=\"seo-tool-3\">sito web, social media e portfolio</a>. Scopri come un'identità visiva e un <a href=\"#\" data-affiliate-slot=\"seo-tool-4\">tono di voce coerente</a> possano potenziare la tua presenza digitale. Ottieni <a href=\"#\" data-affiliate-slot=\"seo-tool-5\">consigli personalizzati per il branding</a> e assicurati che ogni tuo punto di contatto online rifletta al meglio chi sei professionalmente. Utilizza il nostro servizio per un <a href=\"#\" data-affiliate-slot=\"seo-tool-6\">check-up del brand gratuito</a> e trasforma la tua presenza online oggi stesso. Essere riconosciuti è il primo passo per il successo, e la <a href=\"#\" data-affiliate-slot=\"seo-tool-7\">coerenza del marchio</a> è la chiave.</p>\n        </div>\n    </footer>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(event) {\n            event.preventDefault();\n\n            const websiteUrl = document.getElementById('website-url').value;\n            const socialMediaUrls = document.getElementById('social-media-urls').value.split('\\n').filter(url => url.trim() !== '');\n            const brandDescription = document.getElementById('brand-description').value;\n\n            // Simple simulation of analysis logic\n            let score = 0;\n            let suggestions = [];\n\n            const coherenceKeywords = ['minimalista', 'pulito', 'innovativo', 'creativo', 'professionale', 'amichevole', 'audace', 'tradizionale'];\n            const randomCoherence = coherenceKeywords[Math.floor(Math.random() * coherenceKeywords.length)];\n\n            // Simulate score calculation based on input length and random elements\n            if (websiteUrl.length > 10) score += 20;\n            if (socialMediaUrls.length > 0) score += socialMediaUrls.length * 5; // Max 25 for 5 platforms\n            if (brandDescription.length > 50) score += 30;\n\n            // Add some randomness to the score\n            score = Math.min(100, score + Math.floor(Math.random() * 20));\n\n            // Generate suggestions\n            if (score < 60) {\n                suggestions.push(\"La tua presenza online mostra incoerenze significative. Suggeriamo una revisione approfondita.\");\n                if (websiteUrl === '') suggestions.push(\"È fondamentale avere un sito web professionale come fulcro del tuo brand.\");\n                if (socialMediaUrls.length === 0) suggestions.push(\"Espandi la tua presenza sui social media pertinenti al tuo settore.\");\n                if (brandDescription.length < 30) suggestions.push(\"Definisci meglio il tuo tono di voce e la tua estetica. Sembra mancare una chiara direzione.\");\n                suggestions.push(\"Verifica che i tuoi loghi e le immagini del profilo siano identici su tutte le piattaforme.\");\n                suggestions.push(\"Analizza i colori usati: sono gli stessi su sito, social e materiali promozionali?\");\n                suggestions.push(\"Il font del tuo sito web si abbina a quello usato per le grafiche sui social?\");\n                suggestions.push(`Considera di adottare uno stile più \"${randomCoherence}\" per tutta la tua comunicazione visiva.`);\n            } else if (score >= 60 && score < 85) {\n                suggestions.push(\"Il tuo brand mostra una buona coerenza, ma ci sono aree per un ulteriore affinamento.\");\n                if (socialMediaUrls.length < 3) suggestions.push(\"Potresti ottimizzare la coerenza su più piattaforme social.\");\n                if (brandDescription.length < 80) suggestions.push(\"Approfondisci la tua descrizione del brand per una maggiore chiarezza interna.\");\n                suggestions.push(\"Fai attenzione ai dettagli: piccole variazioni nei filtri delle immagini o nel posizionamento del logo possono fare la differenza.\");\n                suggestions.push(\"Chiedi a un amico o collega di dare un'occhiata imparziale alla tua presenza online per scovare discrepanze.\");\n                suggestions.push(\"Prepara una brand guideline semplice per mantenere la coerenza in futuro.\");\n            } else {\n                suggestions.push(\"Eccellente! Il tuo brand personale è molto coerente. Continua così!\");\n                suggestions.push(\"Mantieni aggiornata la tua brand guideline e monitora regolarmente le tue piattaforme.\");\n                suggestions.push(\"Pensa a come potresti innovare mantenendo la tua coerenza distintiva.\");\n            }\n\n            document.getElementById('coherence-score').textContent = `${score}/100`;\n            const suggestionsList = document.getElementById('coherence-suggestions');\n            suggestionsList.innerHTML = '';\n            suggestions.forEach(sug => {\n                const li = document.createElement('li');\n                li.textContent = sug;\n                suggestionsList.appendChild(li);\n            });\n\n            document.getElementById('tool-result').style.display = 'block';\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.removeAttribute(\"rel\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"Result area was not found.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Native form submission updated the result area.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"Result area did not render usable output.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Primary tool form was not found.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
