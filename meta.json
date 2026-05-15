@@ -1,0 +1,44 @@
+{
+  "name": "Strumento di Analisi Coerenza Visiva per Brand Personali",
+  "description": "Verifica la coerenza del tuo brand personale su diverse piattaforme online (sito web, social media, portfolio), fornendo un punteggio e suggerimenti di miglioramento.",
+  "theme": "tool",
+  "design_theme": "refined-grit",
+  "structure_preset": "precision-bento",
+  "render_direction": "studio-split",
+  "page_blueprint": "briefing-board",
+  "language": "it",
+  "country": "IT",
+  "url": null,
+  "expected_url": "https://strumento-di-analisi-coerenza-visiva-per-brand-b09c116d.onrender.com",
+  "created": "2026-05-15T00:47:06.933192+00:00",
+  "owner_user_id": "user-1774822953462",
+  "owner_username": "admin",
+  "owner_display_name": "Administrator",
+  "status": "generated",
+  "run_id": "run-1778805800831",
+  "external_site_request_id": null,
+  "external_client_ref": null,
+  "external_source_label": null,
+  "source_type": "generated",
+  "publish_target": "render",
+  "mode": "production",
+  "github": {
+    "status": "pending"
+  },
+  "deployment": {
+    "status": "pending"
+  },
+  "qa": {
+    "status": "pending"
+  },
+  "features": [
+    "Hero pattern: split",
+    "Proof module: metrics",
+    "Design theme: Refined Grit",
+    "Render direction: Studio Split",
+    "Page blueprint: Briefing Board",
+    "Runtime mode: palette_generator",
+    "Generation mode: direct_html",
+    "Artifact rendered, awaiting QA and deployment"
+  ]
+}
