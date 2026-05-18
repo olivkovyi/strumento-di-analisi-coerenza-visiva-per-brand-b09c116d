@@ -1,27 +1,38 @@
 {
+  "slug": "strumento-di-analisi-coerenza-visiva-per-brand-b09c116d",
   "name": "Strumento di Analisi Coerenza Visiva per Brand Personali",
   "description": "Verifica la coerenza del tuo brand personale su diverse piattaforme online (sito web, social media, portfolio), fornendo un punteggio e suggerimenti di miglioramento.",
   "theme": "tool",
-  "design_theme": "refined-grit",
-  "structure_preset": "precision-bento",
-  "render_direction": "studio-split",
-  "page_blueprint": "briefing-board",
+  "design_theme": "imported-source",
+  "structure_preset": "external-source",
+  "render_direction": "imported-source",
+  "page_blueprint": "imported-source",
   "language": "it",
   "country": "IT",
   "url": null,
   "expected_url": "https://strumento-di-analisi-coerenza-visiva-per-brand-b09c116d.onrender.com",
-  "created": "2026-05-15T00:47:06.933192+00:00",
+  "created": "2026-05-18T02:02:44.620949+00:00",
   "owner_user_id": "user-1774822953462",
   "owner_username": "admin",
   "owner_display_name": "Administrator",
   "status": "generated",
-  "run_id": "run-1778805800831",
-  "external_site_request_id": null,
-  "external_client_ref": null,
-  "external_source_label": null,
-  "source_type": "generated",
+  "run_id": "run-1779069763626",
   "publish_target": "render",
   "mode": "production",
+  "source_type": "imported",
+  "import_source_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1779069739216/strumento-di-analisi-coerenza-visiva-per-brand-b09c116d",
+  "import_root_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1779069739216/strumento-di-analisi-coerenza-visiva-per-brand-b09c116d",
+  "import_resolution_note": null,
+  "analysis": {
+    "model": "preserved-analysis",
+    "summary": "Verifica la coerenza del tuo brand personale su diverse piattaforme online (sito web, social media, portfolio), fornendo un punteggio e suggerimenti di miglioramento.",
+    "notes": "Growth module republish of an updated local artifact.",
+    "characteristics": [
+      "imported static site",
+      "ready file deploy",
+      "tool"
+    ]
+  },
   "github": {
     "status": "pending"
   },
@@ -32,13 +43,210 @@
     "status": "pending"
   },
   "features": [
-    "Hero pattern: split",
-    "Proof module: metrics",
-    "Design theme: Refined Grit",
-    "Render direction: Studio Split",
-    "Page blueprint: Briefing Board",
-    "Runtime mode: palette_generator",
-    "Generation mode: direct_html",
-    "Artifact rendered, awaiting QA and deployment"
-  ]
+    "Imported from ready static files",
+    "AI analysis model: preserved-analysis",
+    "imported static site",
+    "ready file deploy",
+    "tool"
+  ],
+  "growth": {
+    "affiliate": {
+      "status": "ready",
+      "updated_at": "2026-05-18T02:02:24.390693+00:00",
+      "modes": [
+        "anchor_text"
+      ],
+      "links": 1,
+      "insertions": 1,
+      "review": {
+        "status": "pass",
+        "score": 84,
+        "summary": "A safer anchor-text fallback was applied as a compact contextual block near the bottom of the page.",
+        "issues": []
+      }
+    }
+  },
+  "previous_live_state": {
+    "url": "https://strumento-di-analisi-coerenza-visiva-per.onrender.com",
+    "expected_url": "https://strumento-di-analisi-coerenza-visiva-per.onrender.com",
+    "requested_url": "https://strumento-di-analisi-coerenza-visiva-per.onrender.com",
+    "github": {
+      "status": "published",
+      "repo_name": "strumento-di-analisi-coerenza-visiva-per-brand-b09c116d",
+      "repo_url": "https://github.com/olivkovyi/strumento-di-analisi-coerenza-visiva-per-brand-b09c116d",
+      "updated_at": 1778806113
+    },
+    "deployment": {
+      "status": "ready",
+      "provider": "render",
+      "service_id": "srv-d836rk8js32c73c4mf60",
+      "project_name": "strumento-di-analisi-coerenza-visiva-per-brand-b09c116d",
+      "requested_project_name": null,
+      "deployment_id": "dep-d836rkgjs32c73c4mfd0",
+      "deployment_url": "https://strumento-di-analisi-coerenza-visiva-per.onrender.com",
+      "public_url": "https://strumento-di-analisi-coerenza-visiva-per.onrender.com",
+      "expected_public_url": "https://strumento-di-analisi-coerenza-visiva-per.onrender.com",
+      "dashboard_url": "https://dashboard.render.com/static/srv-d836rk8js32c73c4mf60",
+      "ready_state": "live",
+      "target": "production",
+      "updated_at": 1778806127,
+      "requested_public_url": "https://strumento-di-analisi-coerenza-visiva-per.onrender.com",
+      "url_source": "alias"
+    },
+    "qa": {
+      "status": "pass",
+      "local": {
+        "status": "pass",
+        "checks": [
+          {
+            "name": "index_exists",
+            "status": "pass",
+            "detail": "index.html exists"
+          },
+          {
+            "name": "meta_exists",
+            "status": "pass",
+            "detail": "meta.json exists"
+          },
+          {
+            "name": "robots_exists",
+            "status": "pass",
+            "detail": "robots.txt exists"
+          },
+          {
+            "name": "has_title",
+            "status": "pass",
+            "detail": "HTML contains a title tag"
+          },
+          {
+            "name": "has_viewport",
+            "status": "pass",
+            "detail": "HTML contains a mobile viewport meta tag"
+          },
+          {
+            "name": "has_canonical",
+            "status": "pass",
+            "detail": "HTML contains a canonical URL"
+          },
+          {
+            "name": "bundle_size",
+            "status": "pass",
+            "detail": "Generated HTML stays below 250KB"
+          },
+          {
+            "name": "functional_qa_hook",
+            "status": "pass",
+            "detail": "Generated HTML includes the browser QA hook used before deploy."
+          },
+          {
+            "name": "inline_script_syntax",
+            "status": "pass",
+            "detail": "Inline JavaScript syntax check passed."
+          },
+          {
+            "name": "robots_google_only",
+            "status": "pass",
+            "detail": "robots.txt allows only Google crawlers and blocks all other bots."
+          },
+          {
+            "name": "no_meta_noindex",
+            "status": "pass",
+            "detail": "Generated HTML does not inject a noindex robots meta tag."
+          },
+          {
+            "name": "no_internal_branding",
+            "status": "pass",
+            "detail": "Generated site does not leak internal platform branding or internal product naming."
+          },
+          {
+            "name": "desktop_layout_overlap",
+            "status": "pass",
+            "detail": "Editorial desktop layout avoids negative overlap offsets on the tool panel"
+          }
+        ],
+        "checked_at": 1779069745
+      },
+      "functional": {
+        "status": "pass",
+        "detail": "desktop: Native form submission updated the result area. | mobile: Native form submission updated the result area.",
+        "target_url": "http://127.0.0.1:44257/index.html?__qa=functional",
+        "mode": "native-form",
+        "headline": "Risultato della Tua Analisi di Coerenza",
+        "primary_url": "",
+        "desktop": {
+          "status": "pass",
+          "detail": "Native form submission updated the result area.",
+          "target_url": "http://127.0.0.1:44257/index.html?__qa=functional",
+          "viewport": "desktop",
+          "mode": "native-form",
+          "headline": "Risultato della Tua Analisi di Coerenza",
+          "primary_url": "",
+          "reported_viewport": "desktop",
+          "updated_at": 1779069746
+        },
+        "mobile": {
+          "status": "pass",
+          "detail": "Native form submission updated the result area.",
+          "target_url": "http://127.0.0.1:44257/index.html?__qa=functional",
+          "viewport": "mobile",
+          "mode": "native-form",
+          "headline": "Risultato della Tua Analisi di Coerenza",
+          "primary_url": "",
+          "reported_viewport": "mobile",
+          "updated_at": 1779069747
+        },
+        "updated_at": 1779069747
+      },
+      "remote": {
+        "status": "pass",
+        "checks": [
+          {
+            "name": "remote_200",
+            "status": "pass",
+            "detail": "Remote deployment returned HTTP 200"
+          },
+          {
+            "name": "remote_title",
+            "status": "pass",
+            "detail": "Remote HTML contains a title tag"
+          },
+          {
+            "name": "remote_body",
+            "status": "pass",
+            "detail": "Remote HTML contains a body tag"
+          }
+        ],
+        "checked_at": 1779069747
+      },
+      "visual": {
+        "status": "pass",
+        "desktop": {
+          "status": "pass",
+          "path": "/var/lib/utility-site-studio/static/generated-qa/strumento-di-analisi-coerenza-visiva-per-brand-b09c116d/strumento-di-analisi-coerenza-visiva-per-brand-b09c116d-desktop.png",
+          "detail": "1440x960 screenshot captured.",
+          "relative_url": "/static/generated-qa/strumento-di-analisi-coerenza-visiva-per-brand-b09c116d/strumento-di-analisi-coerenza-visiva-per-brand-b09c116d-desktop.png"
+        },
+        "mobile": {
+          "status": "pass",
+          "path": "/var/lib/utility-site-studio/static/generated-qa/strumento-di-analisi-coerenza-visiva-per-brand-b09c116d/strumento-di-analisi-coerenza-visiva-per-brand-b09c116d-mobile.png",
+          "detail": "430x932 screenshot captured.",
+          "relative_url": "/static/generated-qa/strumento-di-analisi-coerenza-visiva-per-brand-b09c116d/strumento-di-analisi-coerenza-visiva-per-brand-b09c116d-mobile.png"
+        },
+        "updated_at": 1779069749
+      },
+      "lighthouse": {
+        "status": "pass",
+        "scores": {
+          "performance": 99,
+          "accessibility": 92,
+          "best-practices": 96,
+          "seo": 100
+        },
+        "report_path": "/var/lib/utility-site-studio/data/qa/lighthouse/strumento-di-analisi-coerenza-visiva-per-brand-b09c116d-lighthouse.json",
+        "updated_at": 1779069763
+      },
+      "qa_live_url": "https://strumento-di-analisi-coerenza-visiva-per.onrender.com",
+      "updated_at": "2026-05-18T02:02:43.402679+00:00"
+    }
+  }
 }
